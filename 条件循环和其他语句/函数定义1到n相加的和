@@ -1,0 +1,14 @@
+#/usr/bin/python3
+#-*-coding:UTF-8-*-
+
+def test():
+
+    n=int(input('请输入一个数字：'))
+    num=0
+
+    for i in  range(n):
+        num=num+i
+
+    return num
+
+print('相加和的值为：',test())
