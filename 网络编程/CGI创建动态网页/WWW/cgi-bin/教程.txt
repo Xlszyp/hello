@@ -1,0 +1,5 @@
+1.新建WWW目录,再在WWW目录下新建cgi-bin目录
+2.进入cmd,cd到WWW目录下
+3.开启自带的cgi服务器：python -m http.server --cgi 8081
+4.将写的代码放进cgi-bin目录
+5.打开浏览器，输入localhost:8081/cgi-bin/demo.py
